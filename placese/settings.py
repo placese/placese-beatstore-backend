@@ -97,6 +97,9 @@ DATABASES = {
         'PASSWORD': 'beatstore',
         'HOST': 'localhost',
         'PORT': '',
+        'TEST': {
+            'NAME': 'test_get'
+        }
     }
 }
 

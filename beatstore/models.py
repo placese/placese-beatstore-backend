@@ -6,7 +6,7 @@ class Beat(models.Model):
     price_wav = models.PositiveIntegerField()
     price_track_out = models.PositiveIntegerField()
     price_exclusive = models.PositiveIntegerField()
-    cover = models.FileField(upload_to='covers/')
+    cover = models.ImageField(upload_to='covers/')
     track = models.FileField(upload_to='tracks/')
 
     def __str__(self):
